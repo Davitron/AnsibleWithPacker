@@ -8,7 +8,7 @@ data "aws_ami" "ubuntu" {
   most_recent = true
 
   filter {
-    name = "name"
+    name = "Name"
     values = ["more-recipes*"]
   }
 
